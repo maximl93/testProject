@@ -1,0 +1,3 @@
+- git clone https://github.com/maximl93/testProject.git
+- в терминале, в корневой папке проекта выполнить команду по сборке ./gradlew clean build
+- для запуска контейнера выполнить команду docker-compose up --build
