@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: testApp
+  jpa:
+    hibernate:
+      ddl-auto: ${SPRING_JPA_HIBERNATE_DDL_AUTO}
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    platform: postgres
+    url: ${SPRING_DATASOURCE_URL}
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api-docs
+
+logging:
+  level:
+    root: INFO
+    com.example.testApp: DEBUG
+    org.springframework: WARN
