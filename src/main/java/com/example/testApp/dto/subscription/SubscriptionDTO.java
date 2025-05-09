@@ -8,4 +8,5 @@ import lombok.Setter;
 public class SubscriptionDTO {
     private long id;
     private String title;
+    private int countSubscribers;
 }
